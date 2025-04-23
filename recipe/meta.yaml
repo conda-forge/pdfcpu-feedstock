@@ -1,5 +1,5 @@
 {% set name = "pdfcpu" %}
-{% set version = "0.9.1" %}
+{% set version = "0.10.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pdfcpu/pdfcpu/archive/v{{ version }}.tar.gz
-  sha256: 79572e599deddfaa72109f3e029b74b8cd6070657355e8cc9d8c7fb91da73c71
+  sha256: a07cc50446ef6526fa26d5fe2c9e207724971e0b6917f3d70680ec39cfc53aec
 
 build:
   number: 0

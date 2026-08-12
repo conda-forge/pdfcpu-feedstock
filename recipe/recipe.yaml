@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.14.0"
+  version: "0.15.0"
 
 package:
   name: pdfcpu
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/pdfcpu/pdfcpu/archive/v${{ version }}.tar.gz
-  sha256: 9e824957d847af70585e9b5c94070e3b78377c876adadc0b90e37afcf706ba69
+  sha256: 69924a7363ea19b4f3d4799ebf78bcabfec75a735c9569983a6e2834b5e8c6b3
 
 build:
   number: 0
